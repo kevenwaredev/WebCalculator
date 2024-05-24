@@ -1,0 +1,54 @@
+/*Zerando margin e padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estruturando posição*/
+body, html {
+    height: 100%;
+}
+
+/*Configurando fundo para transitar de azul a roxo e config de fontes
+E posições na tela*/
+.fundo {
+    background-image: linear-gradient(45deg, blue, purple);
+    height: 100%; /* Usa 100% da altura disponível */
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*Estilização Calculadora arredondando cantos*/
+.calculadora {
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+}
+
+/*Configurando tamanho posição e cores dos botões*/
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+/*Muda de cor ao passar o mouse sobre o numero*/
+.botao:hover {
+    background-color: orangered;
+}
+
+/*Posição do titulo*/
+.info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+}
